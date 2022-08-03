@@ -1,0 +1,55 @@
+header {
+    float: left;
+    background-color: #f7f6dc;
+    width: 100%;
+    height: 75px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav {
+    float: left;
+    background-color: #e4f0f1;
+    width: 14%;
+    height: 500px;
+    margin: 10px;
+
+}
+
+nav a {
+    padding: 3px;
+    
+}
+
+main {
+    float: left;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 500px;
+}
+
+.Cards h3 {
+    background-color: plum;
+}
+
+.Cards {
+    background-color: rgb(245, 205, 245);
+}
+
+.container {
+    float: left;
+}
+
+.card {
+    background-color: rgb(211, 251, 217);
+    border: 2px sd rgb (79, 185, 227);
+    padding: 10px;
+    margin: 10px;
+}
+
+.card h4 {
+    background-color: rgb(139, 235, 139);
+}
+
