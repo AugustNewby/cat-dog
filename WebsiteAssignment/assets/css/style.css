@@ -54,3 +54,7 @@ main {
     background-color: rgb(139, 235, 139);
 }
 
+.Cards img {
+    width: 200px;
+}
+
