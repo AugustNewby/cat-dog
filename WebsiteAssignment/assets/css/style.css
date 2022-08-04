@@ -45,7 +45,7 @@ main {
 
 .card {
     background-color: rgb(211, 251, 217);
-    border: 2px sd rgb (79, 185, 227);
+    border: 2px rgb (79, 185, 227);
     padding: 10px;
     margin: 10px;
 }
