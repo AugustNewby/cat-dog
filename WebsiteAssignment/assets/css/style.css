@@ -1,60 +1,114 @@
 header {
+
+    outline: auto;
+    outline-color: rgb(196, 196, 196);
+    margin-left: 120px;
     float: left;
-    background-color: #f7f6dc;
-    width: 100%;
-    height: 75px;
+    background-color: #fcfce9;
+    width: 77%;
+    height: auto;
+
 }
 
 header h1 {
+
     text-align: center;
+
 }
 
 nav {
-    float: left;
-    background-color: #e4f0f1;
-    width: 110px;
-    height: 500px;
-    margin: 10px;
 
+    outline: auto;
+    outline-color: rgb(196, 196, 196);
+    position: fixed;
+    float: left;
+    background-color: #fcfce9;
+    width: 110px;
+    height: 100%;
+
+}
+nav img {
+    width: 100px;
 }
 
 nav a {
+
     padding: 3px;
-    
+
 }
 
+
 main {
+
+    outline: ;
+    margin-left: 110px;
     float: left;
     background-color: rgb(255, 255, 255);
     width:80%;
-    height: 660px;
+    height: 730px;
+
 }
 
 .Cards h3 {
+
     background-color: plum;
+
 }
 
 .Cards {
+
     float: left;
     background-color: rgb(245, 205, 245);
+
 }
 
 .container {
+
     float: left;
+
 }
 
 .card {
+
+    outline: auto;
+    outline-color: rgb(196, 196, 196);
     background-color: rgb(211, 251, 217);
     border: 2px rgb (79, 185, 227);
     padding: 10px;
     margin: 10px;
+
 }
 
 .card h4 {
+
     background-color: rgb(139, 235, 139);
+
 }
 
 .Cards img {
+
     width: 200px;
+    
+}
+
+#Featured {
+    float: left;
+    clear: right;
+    display: inline;
+}
+
+#News {
+    float: left;
+    clear: right;
+}
+
+#Question {
+    float: left;
+    clear: right;
+}
+
+#Day {
+    float: left;
+    clear: right;
 }
 
