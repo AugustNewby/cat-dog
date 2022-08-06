@@ -1,0 +1,23 @@
+li {
+    display: inline;
+    padding: 10px;
+}
+
+#navbar1 {
+    background-color: #55cdfc;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+}
+
+a:hover {
+    background-color: #f7a8b8;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+a:link {
+    text-decoration: none;
+}
