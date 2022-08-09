@@ -1,36 +1,32 @@
-li {
-    display: inline;
+ul {
+    display: flex;
     padding: 10px;
+    /* justify-content: flex-end; */
 }
 
-#navbar1 {
+li {
+    padding: 10px;
+    list-style: none;
+}
+
+nav {
     background-color: #55cdfc;
-    position: fixed;
     width: 100%;
     padding: 10px;
 }
 
-a:hover {
-    background-color: #f7a8b8;
-}
-
-h3 {
-    color: white;
-    font-size: 50px;
-}
-
 a {
-    color: rgb(255, 255, 255);
+    text-decoration: none;
+    color: white;
+}
+
+li :hover {
+    background-color: pink;
 }
 
 #Home {
     color: white;
     margin-right: auto;
-}
-
-a:link {
-    text-decoration: none;
-    
 }
 
 .dropdown-menu {
@@ -45,7 +41,15 @@ a:link {
     opacity: 0;
     transition: 0.5s;
 }
+
 .dropdown:hover .dropdown-menu {
     opacity: 1;
 }
  
+/* Media Query */
+@media only screen and (max-width: 768px) {
+
+    ul{
+        flex-direction: column;
+    }
+} 
