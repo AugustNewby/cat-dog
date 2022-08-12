@@ -1,0 +1,53 @@
+h2 {
+    margin-left: 95px;
+    color: rgba(75, 38, 38, 0.629);
+}
+
+#Lastname { 
+    margin: 100px;
+}
+
+#Firstname {
+    width: 169px;
+}
+
+#Email {
+    width: 350px;
+}
+
+select {
+    width: 117px;
+}
+#Gender {
+    width: 55px;
+}
+
+body { 
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    max-width: fit-content;
+    padding: 15px;
+    background-color: rgb(198, 226, 204);
+    border: 2px solid rgba(75, 38, 38, 0.629);
+    box-shadow: -3px 0 rgb(191, 189, 189), 0 3px rgb(191, 189, 189), 1px 0 rgb(191, 189, 189), 0 -1px rgb(191, 189, 189);
+}
+ 
+button {
+    margin-left: 133px;
+    width: 100px;
+    height: 25px;
+    background-color: rgba(75, 38, 38, 0.629);
+    color: white;
+}
+
+label { 
+    color: rgba(75, 38, 38, 0.629);
+}
+
+input {
+    background-color: rgb;
+}
+select {
+    color: rgba(75, 38, 38, 0.629);
+}
