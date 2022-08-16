@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Assets/Css/style.css">
+    <title>Forms</title>
+</head>
+<body>
+    <div>
+        <h2>Creat Account</h2>
+        <form>
+            
+            <label for="Firstname">First Name:</label> <label for="Lastname" id="Lastname">Last Name:</label>
+                <br>
+            <input type="text" name="Firstname" id="Firstname" required minlength="1" maxlength="50" size="10">  
+            <input type="text" name="Lastname" id="Firstname" required minlength="1" maxlength="50" size="10">
+                <br>
+            <label for="Email">Email:</label>
+                <br>
+            <input type="Email" name="Email" id="Longtext" required minlength="1" maxlength="100" size="10">
+                <br>
+            <label for="Password">Password:</label></label>
+                <br>
+            <input type="Password" name="Password" id="Longtext" required minlength="1" maxlength="50" size="10">
+            <br>
+            <label for="ConfirmPassword">Confirm Password:</label></label>
+                <br>
+            <input type="Password" name="Password" id="Longtext" required minlength="1" maxlength="50" size="10">
+                <br>
+            <label for="Birthday">Birthday:</label>
+                <br>
+                    <select name="Month">
+                        <option value="March">March</option>
+                        <option value="April">April</option>
+                        <option value="May">May</option>
+                        <option value="June">June</option>
+                        <option value="July">July</option>
+                        <option value="August">June</option>
+                    </select>
+                    <select name="Day">
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                    </select>
+                    <select name="Year">
+                        <option value="1998">1998</option>
+                        <option value="1999">1999</option>
+                        <option value="2000">2000</option>
+                        <option value="2001">2001</option>
+                        <option value="2002">2002</option>
+                        <option value="2003">2003</option>
+                    </select>
+                <br>
+            <label for="Gender">Gender:</label>
+                <br>
+            <input type="radio" name="Gender" id="Gender" >Male
+                
+            <input type="radio" name="Gender" id="Gender">Female
+                
+            <input type="radio" name="Gender" id="Gender">Other
+            <br>
+            <br>
+            <div id="Button">
+            <button type="button" id="Signup">Sign Up</button>
+            </div>
+        </form>
+    </div>
+                
+</body>
+</html>

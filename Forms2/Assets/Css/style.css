@@ -1,0 +1,60 @@
+h2 {
+    margin-left: 95px;
+    color: rgb(255, 255, 255);
+}
+
+#Lastname { 
+    margin: 100px;
+}
+
+#Firstname {
+    width: 169px;
+}
+
+#Longtext {
+    width: 350px;
+}
+
+select {
+    width: 117px;
+}
+#Gender {
+    width: 55px;
+}
+
+body { 
+    background-image: url("https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=824&q=80");
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    max-width: fit-content;
+    padding: 15px;
+    background-color: rgb(198, 226, 204);
+    color: white;
+}
+
+div {
+    padding: 20px;
+    background-color: rgba(59, 59, 59, 0.66); 
+    border-radius: 8px;
+}
+
+select {
+    color: rgb(6, 5, 5);
+}
+
+
+#Button {  
+    width: 64px;
+    padding: 3px;
+    margin-left: 143px;
+    
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+input:valid {
+    border: 2px solid green;
+}
