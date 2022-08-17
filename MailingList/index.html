@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Assets/Css/style.css">
+    <title>Mailing List</title>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    <fieldset>
+<form action="https://getform.io/f/4fb2a473-7520-4792-afb7-1511d8492d62" method="POST">
+    <label for="HelpWith">What can I help you with?</label>
+            <br>
+        <select name="HelpWith" id="HelpWith">
+                    <option value="password">Retrieve password</option>
+                    <option value="username">Retrieve username</option>
+                    <option value="birthday">Change Birthday</option>
+                    <option value="questions">Frequently asked questions</option>
+                    <option value="changeemail">Change email</option>
+                    <option value="address">Change address</option>
+        </select>
+            <br>
+            <br>
+                    
+        <label for="name">Name</label>
+        <br>
+        <input type="text" id="name" name="name" required minlength="1" maxlength="100">
+            <br>
+            <br>
+        <label for="email">Email</label>
+            <br>
+        <input type="email" id="email" name="email" required minlength="1" maxlength="100">
+            <br>
+            <br>
+        <label for="Mess">Message</label>
+        <textarea name="Mess" id="Mess" cols="34" rows="10" required minlength="1" maxlength="100"></textarea>
+            <br>
+            <br>
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+</form>
+</fieldset>
+</body>
+</html>

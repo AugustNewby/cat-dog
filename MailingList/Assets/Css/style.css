@@ -1,0 +1,63 @@
+input:invalid {
+    border: 2px solid rgb(236, 45, 45);
+}
+
+input:valid {
+    border: 2px solid rgb(195, 157, 138);
+}
+
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVBktWFXTpivfUaDwchguC5ER0BiNrybb_id3OxBEDJhUvU6t67sWMT1TzxdKblBPRCLA&usqp=CAU");
+}
+
+form {
+    text-align: center;
+    
+}
+
+fieldset {
+    padding: 30px;
+    color: rgb(195, 157, 138);
+    background-color: rgb(255, 255, 255);
+    border: solid rgb(247, 230, 207);
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+select {
+    width: 295px;
+    padding: 5px;
+    color: rgb(170, 169, 169);
+    border: solid 2px rgb(195, 157, 138);
+}
+#name {
+    width: 285px;
+    margin: auto;
+    padding: 5px;
+}
+
+#email {
+    width: 285px;
+    margin: auto;
+    padding: 5px;
+}
+
+#Mess {
+    border: 2px solid rgb(195, 157, 138);
+    max-width: 290px;
+    min-width: 289px;
+    max-height: 500px;
+}
+
+label {
+    font-size: 20px;
+}
+
+div {
+    margin-left: 12px;
+}
