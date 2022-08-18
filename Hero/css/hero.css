@@ -1,0 +1,50 @@
+/* hero */
+
+.site-hero {
+    display: flex;
+    background-image: url(../assets/branding/colorss.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 90vh;
+    box-shadow: 8px 3px 3px 8px rgb(0, 0, 0, 3);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-text {
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+}
+
+.hero-text h4 {
+    font-size: 2.5em;
+}
+
+.hero-text h2 {
+    font-size: 5em;
+}
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
