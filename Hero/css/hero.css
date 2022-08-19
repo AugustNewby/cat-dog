@@ -2,7 +2,7 @@
 
 .site-hero {
     display: flex;
-    background-image: url(../assets/branding/colorss.jpeg);
+    background-image: url(../assets/branding/Galllll.jpeg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -47,4 +47,9 @@
 .column img {
     margin-top: 8px;
     vertical-align: middle;
+}
+
+
+#Imgs {
+    width: 50px;
 }
