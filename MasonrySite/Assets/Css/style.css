@@ -37,41 +37,41 @@ body { font-family: sans-serif; }
 .grid-item--height4 { height: 360px; }
 
 #image1 {
-    background-image: url(/Masonry/Assets/Images/Ball1.jpg);
+    background-image: url(/MasonrySite/Assets/Images/Ball1.jpg);
     background-size: cover;
 }
 
 #image2 {
-  background-image: url(/Masonry/Assets/Images/Ball2.jpg);
+  background-image: url(/MasonrySite/Assets/Images/Ball2.jpg);
   background-size: cover;
 }
 
 #image3 {
-  background-image: url(/Masonry/Assets/Images/Ball3.jpg);
+  background-image: url(/MasonrySite/Assets/Images/Ball3.jpg);
   background-size: cover;
 }
 
 #image4 {
-  background-image: url(/Masonry/Assets/Images/Ball4.jpg);
+  background-image: url(/MasonrySite/Assets/Images/Ball4.jpg);
   background-size: cover;
 }
 
 #image5 {
-  background-image: url(/Masonry/Assets/Images/Ball5.jpg);
+  background-image: url(/MasonrySite/Assets/Images/Ball5.jpg);
   background-size: cover;
 }
 
 #image6 {
-  background-image: url(/Masonry/Assets/Images/Ball6.jpg);
+  background-image: url(/MasonrySite/Assets/Images/Ball6.jpg);
   background-size: cover;
 }
 
 #image7 {
-  background-image: url(/Masonry/Assets/Images/Ball7.jpg);
+  background-image: url(/MasonrySite/Assets/Images/Ball7.jpg);
   background-size: cover;
 }
 
 #image8 {
-  background-image: url(/Masonry/Assets/Images/Ball8.jpg);
+  background-image: url(/MasonrySite/Assets/Images/Ball8.jpg);
   background-size: cover;
 }
