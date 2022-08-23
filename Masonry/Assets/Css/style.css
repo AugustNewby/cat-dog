@@ -37,41 +37,41 @@ body { font-family: sans-serif; }
 .grid-item--height4 { height: 360px; }
 
 #image1 {
-    background-image: url(/AAA/Assets/Images/Ball1.jpeg);
+    background-image: url(/Masonry/Assets/Images/Ball1.jpeg);
     background-size: cover;
 }
 
 #image2 {
-  background-image: url(/AAA/Assets/Images/Ball2.jpeg);
+  background-image: url(/Masonry/Assets/Images/Ball2.jpeg);
   background-size: cover;
 }
 
 #image3 {
-  background-image: url(/AAA/Assets/Images/Ball3.jpeg);
+  background-image: url(/Masonry/Assets/Images/Ball3.jpeg);
   background-size: cover;
 }
 
 #image4 {
-  background-image: url(/AAA/Assets/Images/Ball4.jpeg);
+  background-image: url(/Masonry/Assets/Images/Ball4.jpeg);
   background-size: cover;
 }
 
 #image5 {
-  background-image: url(/AAA/Assets/Images/Ball5.jpeg);
+  background-image: url(/Masonry/Assets/Images/Ball5.jpeg);
   background-size: cover;
 }
 
 #image6 {
-  background-image: url(/AAA/Assets/Images/Ball6.jpg);
+  background-image: url(/Masonry/Assets/Images/Ball6.jpg);
   background-size: cover;
 }
 
 #image7 {
-  background-image: url(/AAA/Assets/Images/Ball7.jpeg);
+  background-image: url(/Masonry/Assets/Images/Ball7.jpeg);
   background-size: cover;
 }
 
 #image8 {
-  background-image: url(/AAA/Assets/Images/Ball8.jpeg);
+  background-image: url(/Masonry/Assets/Images/Ball8.jpeg);
   background-size: cover;
 }
