@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Assets/Css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@700&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+  
+  <div id="Christmas">
+    <h1>Countdown to Christmas</h1>
+  </div>
+
+  <div id="hero">
+    <h1 id="countdown"></h1>
+  </div>
+  
+  <script src="Assets/js/hello.js">
+    function convertToDaysLeft(milliseconds) {
+      return Math.floor(milliseconds / (1000 * 60 * 60 * 24));
+    }
+
+    function convertToHoursLeft(milliseconds) {
+      return Math.floor(
+        (milliseconds % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    }
+
+    function convertToMinutesLeft(milliseconds) {
+      return Math.floor(
+        (milliseconds % (1000 * 60 * 60)) / (1000 * 60));
+    }
+
+    function convertToSecondsLeft(milliseconds) {
+      return Math.floor(
+        (milliseconds % (1000 * 60)) / 1000
+      );
+    }
+
+    function formatCountdownText(days, hours, minutes, seconds) {
+      return '${days}d ${hours}h ${minutes}m ${seconds}s left';
+    }
+
+
+  </script>
+  
+</body>
+</html>
