@@ -1,9 +1,9 @@
 // room and ball initialization
 
-let roomWidth = 1000;
+let roomWidth = 1400;
 let roomHeight = 600;
-let ballWidth = 25;
-let ballHeight = 25;
+let ballWidth = 100;
+let ballHeight = 100;
 
 let room = document.getElementById("room")
 room.style.width = roomWidth + 'px';
