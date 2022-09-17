@@ -1,6 +1,6 @@
 // room and ball initialization
 
-let roomWidth = 600;
+let roomWidth = 1000;
 let roomHeight = 600;
 let ballWidth = 25;
 let ballHeight = 25;
