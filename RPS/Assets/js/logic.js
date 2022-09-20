@@ -46,7 +46,7 @@ function playGame (yourPick) {
    
     let myPick = getRandomPick();
     
-    let rockleft = document.gettlementById("rockLeft");
+    let rockleft = document.getElementById("rockLeft");
     let paperLeft = document.getElementById ("paperLeft");
     let scissorsLeft = document.getElementById ("scissorsLeft");
     let rockRight = document.getElementById ("rockRight");
