@@ -25,7 +25,7 @@ function getResultText(computerPick, playerPick) {
 
     if (computerPick == PAPER && playerPick == ROCK) {
         return LOSE;
-    } else if (computerPick == Paper && playerPick == SCISSORS) {
+    } else if (computerPick == PAPER && playerPick == SCISSORS) {
         return WIN;
     }
 
@@ -40,4 +40,48 @@ function getResultText(computerPick, playerPick) {
     } else if (computerPick == SCISSORS && playerPick == ROCK) {
         return WIN;
     }
+}
+
+function playGame (yourPick) {
+   
+    let myPick = getRandomPick();
+    
+    let rockleft = document.gettlementById("rockLeft");
+    let paperLeft = document.getElementById ("paperLeft");
+    let scissorsLeft = document.getElementById ("scissorsLeft");
+    let rockRight = document.getElementById ("rockRight");
+    let paperRight = document.getElementById ("paperRight");
+    let scissorsRight = document.getElementById("scissorsRight");
+    let yourPickText = document.getElementById ("yourPickText");
+    let myPickText = document.getElementById ("myPickText");
+    
+    yourPickText.innerHTML = yourPick;
+    switch (yourPick) {
+    case ROCK:
+    rockleft.classlist.add("selected");
+    break;
+    case PAPER:
+    paperLeft.classList.add("selected");
+    break;
+    case SCISSORS:
+    scissorsLeft.classList.add("selected");
+    break;
+}
+
+myPickText.innerHTML = myPick;
+
+switch (myPick) {
+    case ROCK:
+        rockRight.classList.add("selected");
+        break;
+    case PAPER:
+        paperRight.classList.add("selected");
+        break;
+    case SCISSORS:
+        scissorsRight.classList.add("selected");
+        break;
+}
+let result = document - getElementById("result");
+
+result.innerHTML = getResultText (myPick, yourPick);
 }
