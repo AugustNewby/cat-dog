@@ -97,7 +97,7 @@ function setUp() {
         let closer = closer[i];
         closer.onclick = function() {
 
-            var popupContainer = document.getElementById("popUpContainer");
+            var popupContainer = document.getElementById("popupContainer");
             popupContainer.classList.remove("popped");
             resetGame();
         };
