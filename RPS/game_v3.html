@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Rock Paper Scissors</title>
+    <link href="Assets/Css/style_v3.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Rock, Paper, Scissors!</h1>
+    <div id="popupContainer">
+      <div id="overlay" class="closer"></div>
+      <div id="popup">
+        <div id="game">
+          <div id="duel">
+            <div id="left">
+              <img id="rockLeft" src="Assets/images/RPS_RockL.png">
+              <img id="paperLeft" src="Assets/images/RPS_PaperL.png">
+              <img id="scissorsLeft" src="Assets/images/RPS_ScissorsL.png">
+            </div>
+            <div id="right">
+              <img id="rockRight" src="Assets/images/RPS_RockR.png">
+              <img id="paperRight" src="Assets/images/RPS_PaperR.png">
+              <img id="scissorsRight" src="Assets/images/RPS_ScissorsR.png">
+            </div>
+          </div>
+          <h3 id="selections">You picked <span id="yourPickText"></span>. I picked <span id="myPickText"></span>.</h3>
+          <h2 id="result"></h2>
+          <button id="playAgain" class="closer">Let's play again!</button>
+        </div>
+      </div>
+    </div>
+    <h2>Pick one!</h2>
+    <nav>
+      <button onclick="popAndPlay(ROCK);">ROCK</button>
+      <button onclick="popAndPlay(PAPER);">PAPER</button>
+      <button onclick="popAndPlay(SCISSORS);">SCISSORS</button>
+    </nav>
+    <script src="Assets/js/logic.js"></script>
+    <script type="text/javascript">
+      setUp();
+    </script>
+  </body>
+</html>
