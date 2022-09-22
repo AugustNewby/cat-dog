@@ -42,6 +42,24 @@ function getResultText(computerPick, playerPick) {
     }
 }
 
+function setUp() {
+    let game = document.getElementById("game");
+    game.onanimationend = function() {
+        this.classList.remove("animate");
+    }
+
+    let closers = document.querySelectorAll(".closer");
+    for (let i = 0; i < closers.length; i++) {
+        let closer = closers[i];
+        closer.onclick = function() {
+
+            var popupContainer = document.getElementById("popupContainer");
+            popupContainer.classList.remove("popped");
+            resetGame();
+        };
+    }
+}
+
 function playGame (yourPick) {
    
     let myPick = getRandomPick();
@@ -81,28 +99,12 @@ switch (myPick) {
         scissorsRight.classList.add("selected");
         break;
 }
-let result = document - getElementById("result");
+let result = document.getElementById("result");
 
-result.innerHTML = getResultText (myPick, yourPick);
+result.innerHTML = getResultText(myPick, yourPick);
 }
 
-function setUp() {
-    let game = document.getElementById("game");
-    game.onanimationend = function() {
-        this.classList.remove("animate");
-    }
 
-    let closer = document.querySelectorAll(".closer");
-    for (let i = 0; i < closer.length; i++) {
-        let closer = closer[i];
-        closer.onclick = function() {
-
-            var popupContainer = document.getElementById("popupContainer");
-            popupContainer.classList.remove("popped");
-            resetGame();
-        };
-    }
-}
 
 function resetGame() {
     let rockLeft = document.getElementById("rockLeft");
