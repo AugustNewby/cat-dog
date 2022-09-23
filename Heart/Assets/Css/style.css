@@ -1,9 +1,10 @@
 .container img {
-    width: 100%;
+ width: 60%;
+ margin-left: 23%;
 }
 
 body {
-     background-color: rgb(114, 5, 131)
+    background-color: rgb(114, 5, 131);
 }
 
 h1{
