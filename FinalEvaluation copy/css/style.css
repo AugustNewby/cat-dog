@@ -1,0 +1,109 @@
+
+.topnav {
+    display: flex;
+    padding: 5px;
+    background-color: #ffffff;
+    overflow: hidden; 
+  }
+  
+  .topnav a {
+    font-family: 'Bebas Neue', cursive;
+    color: #569567;
+    text-decoration: none;
+    margin: 7px;
+    
+  }
+  .topnavtext {
+    display: flex;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 50%;
+    font-size: 20px;
+
+  }
+  .topnav a:hover {
+    color: #185027;
+    
+  }
+  
+  #logo {
+    width: 10%;
+  }
+
+   
+  .footer {
+    position: relative;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: #569567;
+    text-align: center;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 55px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 100px;
+
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .tab {
+    margin-left: 2.5em
+   }
+
+   .Button1 {
+    border-radius: 30px;
+    background-color: #c6cfc5;
+    color: #569567;
+    text-decoration: none;
+    border-style: none;
+   }
+
+   /* image gal */
+   .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    flex: 50%;
+    padding: 0 4px;
+    width: 100%;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  h1{
+    text-align: center;
+  }
+
+  /* font-family: 'Lobster', cursive; */
